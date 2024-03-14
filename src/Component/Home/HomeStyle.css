@@ -1,0 +1,24 @@
+.header{
+    background-color: var( --main-color) ;
+   }
+   .iconHome{
+      position: relative;
+   }
+   .iconHome::before{
+    position: absolute;
+    content: "";
+    top:30%;
+    right: 58%;
+    width: 20% ;
+    height: 4px;
+    background-color: #fff;
+   }
+   .iconHome::after{
+    position: absolute;
+    content: "";
+    top:30%;
+    left:58%;
+    width: 20% ;
+    height: 4px;
+    background-color: #fff;
+   }

@@ -1,0 +1,30 @@
+.contact{
+    color: var(--second-color);
+
+}
+.cantact i{
+    color: #2c3e50;
+}
+
+
+.icon{
+    position: relative;
+ }
+ .icon::before{
+  position: absolute;
+  content: "";
+  top:30%;
+  right: 52%;
+  width: 5% ;
+  height: 4px;
+  background-color:  #2c3e50;
+ }
+ .icon::after{
+  position: absolute;
+  content: "";
+  top:30%;
+  left:52%;
+  width: 5% ;
+  height: 4px;
+  background-color:   #2c3e50;
+ }
